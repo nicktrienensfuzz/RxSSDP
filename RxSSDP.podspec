@@ -13,5 +13,5 @@ Pod::Spec.new do |spec|
   spec.watchos.deployment_target = '4.0'
   spec.requires_arc           = true
   spec.source_files           = 'RxSSDP/*.swift', 'RxSSDP/SwiftSSDPClient/*.swift'
-  spec.dependency             'RxSwift', '~> 4.5'
+  spec.dependency             'RxSwift', '~> 5.0'
 end
